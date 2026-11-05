@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest a focused improvement that keeps local use simple.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What everyday problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Simplest useful behavior
+      description: Explain how it fits local-only use and Windows compatibility.
+    validations:
+      required: true

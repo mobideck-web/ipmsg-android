@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible problem with sanitized details.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Release candidate. Do not include camera tokens, keys, private addresses, chats or personal media. Read SECURITY.md for vulnerabilities."
+  - type: input
+    id: app
+    attributes:
+      label: IPMsg Android version
+      placeholder: 0.7.3 (code 11)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows, IP Messenger and browser versions if relevant
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact action/error without private data.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: File size/type and screen-off state for transfers, quality/browser for camera. Do not attach personal files.
