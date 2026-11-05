@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="app/src/main/res/drawable-nodpi/ipmsg_logo.png" width="128" height="128" alt="IPMsg logo">
+</p>
+
 # IPMsg for Android
 
 A lightweight, unofficial Android companion for Windows IP Messenger. Messages and individual files over your local network, without an account, cloud server or separate Windows companion.
